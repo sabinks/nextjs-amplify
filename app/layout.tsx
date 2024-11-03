@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <title>{process.env.NEXT_PUBLIC_APP_NAME}</title>
+            <title>{process.env.APP_NAME}</title>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >

@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  env: {
-    NEXT_PUBLIC_APP_NAME: process.env.NEXT_PUBLIC_APP_NAME,
-  },
   /* config options here */
 };
-
+module.exports = {
+  env: {
+    APP_NAME: process.env.APP_NAME,
+  },
+};
 export default nextConfig;
